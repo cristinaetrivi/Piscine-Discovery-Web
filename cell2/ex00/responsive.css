@@ -1,0 +1,23 @@
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.full-height {
+    height: 100%;
+}
+table{
+    height: 100%;
+    width: 100%;
+}
+tr :first-child{
+    background-color:#52c6fc; 
+    padding-top: 10%; 
+    padding-bottom: 10%;
+}
+tr :nth-child(2){
+    background-color:#345695;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
