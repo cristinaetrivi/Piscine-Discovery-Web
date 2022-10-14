@@ -8,15 +8,17 @@ table {
     width: 20%;
     height: 20%;
     vertical-align: middle;
+    box-shadow: 0 0 15px 0 rgb(81, 75, 75);
+    border-collapse: collapse;
 }
+/*table:hover {
+    border: 1px solid gray;
+}*/
 .profileimg{
-    background: url("https://media-exp1.licdn.com/dms/image/C4D03AQGF4oc5GZ15Lg/profile-displayphoto-shrink_400_400/0/1605522975232?e=1671062400&v=beta&t=QIwkbke11Ry1O8NbeZ8wbHFZ-aapo6xdEp7h2TEKjk4"); 
-    background-size: cover;
-    width: 200px;
-    height: 200px;
-   justify-content: center;
-    align-items: center;
-    display: flex;
+    background: url("profile.png"); 
+    width: 17vw;
+    height: 17vh;
+    margin: auto;
 }
 h2{
     vertical-align: bottom;
@@ -31,4 +33,10 @@ img{
     color: white;
     margin: 0;
     border: 0;
+}
+.gray{
+    color: gray;
+}
+.description{
+    padding: 0 0 45px 0;
 }
