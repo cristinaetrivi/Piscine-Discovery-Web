@@ -19,6 +19,8 @@ table {
     width: 17vw;
     height: 17vh;
     margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h2{
     vertical-align: bottom;
